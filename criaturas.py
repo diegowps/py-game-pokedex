@@ -7,7 +7,7 @@
 # Tópico POO: Classes e Objetos
 # A 'class' é o molde, a planta para criar objetos.
 class Criatura:
-     """
+    """
     Representa a criatura base do nosso bestiário.
     Define os atributos e métodos que são comuns a todos os seres.
     """
@@ -15,9 +15,14 @@ class Criatura:
     # O método __init__ é o "construtor", chamado automaticamente ao criar um objeto.
     # 'self' se refere à instância específica do objeto que está sendo criada.
     def __init__(self, nome: str, tipo: str, hp: int, ataque: int, imagem_path: str):
-         # Tópico POO: Encapsulamento
+        # Tópico POO: Encapsulamento
         # Os atributos (dados) são agrupados e "encapsulados" dentro do objeto.
         # Eles definem o estado de cada criatura.
+        self.nome = nome
+        self.tipo = tipo
+        self.hp = hp
+        self.ataque = ataque
+        self.imagem_path = imagem_path
 
     def descrever(self):
         """

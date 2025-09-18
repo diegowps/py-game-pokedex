@@ -18,5 +18,6 @@ for criatura in bestiario:
     # Não precisamos saber se a 'criatura' é do tipo Fogo ou Água.
     # Apenas chamamos o método .descrever(), e o Python executa
     # a versão correta do método para aquele objeto específico.
+    
     print(criatura.descrever())
     print("-" * 20)
