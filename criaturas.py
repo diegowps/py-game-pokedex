@@ -46,7 +46,7 @@ class CriaturaFogo(Criatura):
         # A função super() chama o método da classe pai.
         # Aqui, estamos reutilizando o __init__ de 'Criatura' para não repetir código.
         super().__init__(nome, "Fogo", hp, ataque, imagem_path)
- # Tópico POO: Polimorfismo (Sobrescrita de Método)
+    # Tópico POO: Polimorfismo (Sobrescrita de Método)
     # Este método 'descrever' tem o mesmo nome do método na classe pai,
     # mas se comporta de forma diferente (polimorfismo).
     def descrever(self):
